@@ -147,6 +147,45 @@ nav a {
     padding: 0;
 }
 
+/* トップページ */
+
+#photo {
+    background-image: url(./images/beach.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: lemonchiffon;
+    padding-top: 320px;
+    padding-bottom: 80px;
+}
+
+#photo h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;    
+    text-shadow: 0 5px 10px black;
+}
+
+#photo p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 5px 10px black;    
+}
+
+#photo a{
+    background-color: #ffaa00;
+    background-image: linear-gradient(to bottom, white 0%, #ffaa00 100%);
+    padding: 10px 80px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#top header{
+    margin-bottom: 0;
+}
+
 /* ヘッダー */
 header {
     background-color: #fff;
@@ -177,7 +216,7 @@ header h1 a:hover{
     color: #000000;
 }
 
-article {
+article, #message {
     background-color: #fff;
     width: 800px;
     margin-left: auto;
@@ -188,7 +227,7 @@ article {
     box-shadow: 5px 5px 3px #aaa;
     border-radius: 10px;
     margin-bottom: 15px;
-    overflow: hidden;
+    overflow: hidden;  /* float扱いを無視しない */
 }
 
 article a {
