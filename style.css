@@ -358,3 +358,9 @@ figure.photo-right{
 figure.photo-right img {
     width : 200px;
 }
+
+/* js-sample */
+.ui-autocomplete {
+    max-height: 200px;
+    overflow: auto;
+}
