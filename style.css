@@ -186,6 +186,41 @@ nav a {
     margin-bottom: 0;
 }
 
+/* アバウトページ */
+table, th, td{
+    border: solid 1px #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+th, td{
+    padding: 10px 20px 10px 20px;
+}
+
+th{
+    width: 150px;
+    background-color: orange;
+    text-align: left;
+}
+
+td{
+    width: 450px;
+    background-color: #ffedce;
+}
+
+caption{
+    font-weight: bold;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 /* ヘッダー */
 header {
     background-color: #fff;
