@@ -221,6 +221,30 @@ caption{
     margin-bottom: 10px;
 }
 
+/* お問合せページ */
+input, textarea{
+    display: block;
+}
+
+input{
+    width: 400px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    background-color: orange;
+    background-image: linear-gradient(to bottom, white 0%, orange 100%);
+    border: solid 1px #aaa;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 600px;
+    height: 120px;
+}
+
 /* ヘッダー */
 header {
     background-color: #fff;
