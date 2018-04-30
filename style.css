@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: meiryo, sans-serif;
+    background-color: #edede3;
+    margin: 0;
+    background-image: url(./images/back.jpg);
+}
+
+h1{
+    margin-top: 0;
+    /* border-bottom: solid 5px orange; */
+    margin-bottom: 0;
+}
+
+h2{
+    clear: both;
+    border-bottom: solid 5px #c39f4a;
+    margin-top: 30px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    color: #b77b3c
+}
+
+a:hover{
+    color: orange;
+}
+
+/* 関連記事へのリンク */
+aside{
+    border: solid 2px #d6c588;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #edede3;
+    margin-top: 40px;
+}
+
+aside h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #c39f4a;
+    border-bottom: 1px dotted #c39f4a;
+}
+
+aside ul{
+    list-style-image: url(./images/point002_10.gif);
+}
+
+aside a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ヘッダー */
+header {
+    background-color: #fff;
+    border: solid 1px #aaa;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 7px #aaa;
+    padding: 5px;
+}
+
+header h1 img {
+    vertical-align: -10px;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    background-color: #fff;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #aaa;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 3px #aaa;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+footer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+figure.photo-center{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+figure.photo-left{
+    margin:0;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+}
+
+figure.photo-right{
+    margin:0;
+    margin-left: 20px;
+    float: right;
+    text-align: center;
+}
+
+figure.photo-right img {
+    width : 200px;
+}
