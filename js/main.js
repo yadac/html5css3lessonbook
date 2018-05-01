@@ -12,7 +12,7 @@ function initialize() {
         'golang', 'vb', 'lisp', 'javascript', 'perl', 'php',
         'cobol', 'fortlan', 'powershell', 'shell', 'haskell',
         'kotlin', 'rpg', 'dart', 'delphi', 'elixir', 'erlang', 'f#',
-        'groovy', 'j#', 'rust', 'swift', 'objective-c'];
+        'groovy', 'j#', 'rust', 'swift', 'objective-c', 'scara'];
 
     // add
     $.each(langs, function (index, val) {
